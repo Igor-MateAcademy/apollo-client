@@ -1,0 +1,12 @@
+.empty {
+  :global .ant-empty {
+    &-image {
+      margin-bottom: 0;
+    }
+
+    &-description {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}

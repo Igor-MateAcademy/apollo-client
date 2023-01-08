@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid #1b01c3;
+  border-radius: 7px;
+  background-color: #ddd8ff;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  color: #120085;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 12px;
+  text-align: center;
+  color: #120085;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.svg {
+  stroke: #120085;
+  width: 20px;
+  height: 20px;
+}
+
+.day {
+  stroke: #f6d240;
+}
+
+.night {
+  stroke: #120085;
+}
+
+.text {
+  font-size: 12px;
+  color: #120085;
+}

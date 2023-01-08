@@ -1,0 +1,13 @@
+.box {
+  position: relative;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  font-size: 14px;
+  color: #ff4d4f;
+  z-index: 100;
+}

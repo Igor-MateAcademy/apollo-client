@@ -1,0 +1,25 @@
+@import "../../sources/styles/mixins.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 80px;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  > svg {
+    @include square(48px);
+  }
+
+  > span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

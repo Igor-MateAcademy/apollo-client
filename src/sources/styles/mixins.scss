@@ -1,0 +1,4 @@
+@mixin square($value) {
+  height: $value;
+  width: $value;
+}
